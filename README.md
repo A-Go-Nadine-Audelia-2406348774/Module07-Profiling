@@ -44,8 +44,7 @@ After Optimization highest-gpa
 Penjelasan: Sebelum dilakukan optimasi, endpoint ini memiliki waktu respons rata-rata yang sangat lambat yaitu 140.790 ms atau 2 menit 22 detik. Hal ini terjadi karena aplikasi menarik 20.000 data mahasiswa dari database ke memori aplikasi lalu melakukan pencarian IPK tertinggi menggunakan perulangan secara manual. Setelah dioptimasi dengan menerapkan proses pencarian dan pengurutan langsung ke level database melalui findFirstByOrderByGpaDesc(), waktu respons rata-rata turun menjadi 18.722 ms. Perubahan ini memberikan peningkatan performa sebesar 86,7% yang membuktikan bahwa pemrosesan data di sisi database jauh lebih efisien dibandingkan menarik data besar ke sisi aplikasi.
 
 ## REFLECTION ##
-Reflection
-Please answer the following questions:
+
 1. What is the difference between the approach of performance testing with JMeter and profiling with IntelliJ Profiler in the context of optimizing application performance?
 
 JMeter berfungsi sebagai alat performance testing dari sisi eksternal yang mengukur metrik seperti response time, throughput, dan latency saat aplikasi diberi beban. Sedangkan, IntelliJ Profiler adalah alat profiling internal yang menganalisis penggunaan sumber daya di dalam kode seperti CPU Time dan alokasi memori. JMeter memberitahu bahwa aplikasi lambat dan Profiler menunjukkan dimana letak kelambatannya di dalam baris kode.
