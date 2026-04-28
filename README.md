@@ -2,34 +2,30 @@ Nama = Go Nadine Audelia
 
 ## Performance testing ##
 
-Screenshoot JMeter GUI untuk test plan all-student-name
-![alt text](image.png)
+JMeter GUI all-student
+![alt text](images/image-5.png)
 
-Screenshoot JMeter GUI untuk test plan highest-gpa
-![alt text](image-1.png)
+JMeter GUI all-student-name
+![alt text](images/image.png)
 
-Screenshoot JMeter Command Line untuk test plan all-student-name
-![alt text](image-2.png)
-
-Result all-student-name
-![alt text](image-4.png)
-
-Screenshoot JMeter Command Line untuk test plan highest-gpa
-![alt text](image-3.png)
-
-Result highest-gpa
-![alt text](image-5.png)
+JMeter GUI untuk test plan highest-gpa
+![alt text](images/image-1.png)
 
 ## Profiling ##
 
 Before Optimization all-student
-![alt text](<Screenshot 2026-04-28 155758.png>)
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 After Optimization all-student
-![alt text](image-7.png)
 
-![alt text](image-8.png)
+![alt text](images/image-7.png)
+
+Before Optimization all-student-name
+
+![alt text](images/image-2.png)
 
 
+Before Optimization highest-gpa
+
+![alt text](images/image-3.png)
