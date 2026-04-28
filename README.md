@@ -32,3 +32,7 @@ After Optimization all-student-name
 Before Optimization highest-gpa
 
 ![alt text](images/image-3.png)
+
+After Optimization highest-gpa
+
+![alt text](images/image-9.png)
